@@ -1,0 +1,143 @@
+.contact-section {
+    margin: 5rem;
+}
+
+.contact-main-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+}
+
+.contact-company-details {
+    display: flex;
+    width: 100%;
+}
+
+.contact-left-section {
+    margin-top: 3rem;
+    padding-right: 2rem;
+    flex: 1; /* Allows left section to take available space */
+}
+
+.contact-left-section h1 {
+    margin-bottom: 1rem;
+    color: #058e34;
+    font-size: 3rem;
+}
+
+.contact-left-section p {
+    color: white;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.form-container {
+    max-width: 500px;
+    width: 40%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #2b2a2a;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    text-align: start;
+    margin-bottom: 20px;
+    color: #00c853;
+    font-size: 2rem;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    display: block;
+}
+.contact-info {
+    list-style: none;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    color: white;
+    line-height: 1.6;
+  }
+
+  .contact-info li {
+    margin-bottom: 10px;
+  }
+
+  .contact-info a {
+    color: #00c853;
+    text-decoration: none;
+  }
+
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #3a3939;
+    border-radius: 4px;
+    color: white;
+    background-color: #2b2a2a;
+}
+
+.form-group input[type="submit"] {
+    background-color: #058e34;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #18ad4c;
+}
+
+.success-message {
+    display: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: 1px solid #00c853; /* Green outline when active */
+    border-color: #00c853; /* Change border color to green */
+}
+
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+    .contact-company-details {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .contact-left-section {
+        padding-right: 0; 
+        text-align: center; 
+    }
+
+    .form-container {
+        width: 80%; 
+        margin: 30px auto;
+    }
+
+    .contact-left-section h1 {
+        font-size: 2rem; 
+    }
+}

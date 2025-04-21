@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character set and responsive behavior -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyServe Hosting</title>
+
+    <!-- External Stylesheets -->
+    <link rel="stylesheet" href="../style.css"/>
+    <link rel="stylesheet" href="../css/contact.css"/>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header Navigation Section -->
+    <header class="navigation-section">
+        <div class="navigation-container">
+            <!-- Logo -->
+            <div class="logo">SkyServe</div>
+
+            <!-- Hamburger icon for mobile navigation -->
+            <div class="hamburger" id="hamburger">&#9776;</div>
+
+            <!-- Navigation links -->
+            <div class="navigation-content" id="nav-menu">
+                <a id="home-btn" href="home.html">Home</a>
+                <a id="about-btn" href="about.html">About</a>
+                <a id="plans-btn" href="plans.html">Plans</a>
+                <a id="contact-btn" href="contact.html">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Contact Section -->
+    <section class="contact-section">
+        <div class="contact-main-div">
+
+            <!-- Contact Info Block -->
+            <div class="contact-company-details">
+                <div class="contact-left-section">
+                    <h1>Contact Us</h1>
+                    <p>Email, call or complete the form to learn more about our products</p>
+                    <ul class="contact-info">
+                        <li><strong>Email:</strong> 
+                            <a href="mailto:support@greendwarfhosting.com">support@skyservehosting.com</a>
+                        </li>
+                        <li><strong>Phone:</strong> 
+                            <a href="tel:+18001234567">+1 (800) 123-4567</a>
+                        </li>
+                        <li><strong>Address:</strong> SkyServe Hosting,<br>
+                            123 Cloud Street,<br>
+                            San Francisco, CA 94107,<br>
+                            United States
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contact Form Block -->
+                <div class="form-container">
+                    <h2>Get in Touch</h2>
+
+                    <!-- Contact Form -->
+                    <form id="contact-form" onsubmit="return handleSubmit(event)">
+                        <!-- Name Field -->
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Full Name" required>
+                        </div>
+
+                        <!-- Email Field -->
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="E-mail" required>
+                        </div>
+
+                        <!-- Phone Number Field -->
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                        </div>
+
+                        <!-- Message Field -->
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Write your message here" required></textarea>
+                        </div>
+
+                        <!-- Submit Button -->
+                        <div class="form-group">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+
+                    <!-- Success message (hidden by default) -->
+                    <div class="success-message" id="success-message">
+                        Message Sent Successfully!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <!-- Footer Branding -->
+            <div class="footer-logo">
+                <h2>SkyServe Hosting</h2>
+                <p>Your eco-friendly hosting partner for a greener web.</p>
+            </div>
+
+            <!-- Footer Links -->
+            <div class="footer-links">
+                <a href="#">Home</a>
+                <a href="#">Plans</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <!-- Social Media Icons -->
+            <div class="footer-socials">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <p>&copy; 2025 SkyServe Hosting. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Contact Form JavaScript -->
+    <script src="../js/contact.js"></script>
+</body>
+</html>
