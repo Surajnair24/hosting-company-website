@@ -251,13 +251,13 @@ body, html {
   .plan.highlight{
     height: 23rem;
     border: 1px solid rgb(85, 82, 82);
-    width: 18rem;
+    width: 20rem;
     box-shadow: 0 4px 8px 0 rgba(158, 156, 156, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
   }
   .plan{
     padding: 1rem;
-    width: 17rem;
+    width: 18rem;
     border: 1px solid rgb(85, 82, 82);
     height: 21rem;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
