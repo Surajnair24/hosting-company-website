@@ -257,7 +257,7 @@ body, html {
   }
   .plan{
     padding: 1rem;
-    width: 15rem;
+    width: 17rem;
     border: 1px solid rgb(85, 82, 82);
     height: 21rem;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
