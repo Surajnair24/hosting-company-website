@@ -575,21 +575,6 @@ body, html {
       right: 50%;
       top: -15%;
   }
-  .plan.highlight{
-    padding: 1rem;
-    width: 15rem;
-    border: 1px solid rgb(85, 82, 82);
-    height: 25rem;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  .plan{
-    padding: 1rem;
-    width: 15rem;
-    border: 1px solid rgb(85, 82, 82);
-    height: 25rem;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    
-  }
   .plan li{
     font-size: 0.9rem;
   }
