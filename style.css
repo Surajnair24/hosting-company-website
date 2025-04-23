@@ -299,7 +299,7 @@ body, html {
     border: none;
     color: #ddd;
     width: 100%;
-    padding: .5rem;
+    padding: .4rem;
     transition: background-color .3s ease;
 }
 .price-button span{
